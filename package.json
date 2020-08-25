@@ -1,0 +1,20 @@
+{
+  "name": "magic_react_demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Andy Weiss <andyweiss1982@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "parcel": "^1.12.4"
+  },
+  "scripts": {
+    "start": "parcel index.html"
+  },
+  "browserslist": [
+    ">= 2%"
+  ]
+}
