@@ -1,7 +1,49 @@
 * {
   box-sizing: border-box;
+  font-family: monospace;
 }
 
 body {
-  background-color: aqua;
+  background-color: whitesmoke;
+}
+
+main {
+  max-width: 40rem;
+  margin: 0 auto;
+}
+
+form {
+  width: 100%;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+form input {
+  flex: 1;
+}
+
+#filters {
+  padding: 1rem;
+  background-color: white;
+  margin: 1rem auto;
+}
+
+#filters select {
+  width: 100%;
+}
+
+#cards {
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(15rem, 1fr));
+  grid-gap: 1rem;
+}
+
+.card {
+  display: grid;
+  place-items: center;
+  padding: 1rem;
+  background-color: white;
+  text-align: center;
 }
